@@ -6,12 +6,12 @@
   "component": {
     "default": {
       "customTemplates": {
-        "component": "common/templates/default/TemplateName.tsx",
-        "style": "common/templates/default/TemplateName.module.scss",
-        "test": "common/templates/default/TemplateName.test.tsx",
-        "story": "common/templates/default/TemplateName.stories.tsx",
-        "index": "common/templates/default/index.ts",
-        "hook": "common/templates/default/useTemplateName.ts"
+        "component": "utils/grc/templates/default/TemplateName.tsx",
+        "style": "utils/grc/templates/default/TemplateName.module.scss",
+        "test": "utils/grc/templates/default/TemplateName.test.tsx",
+        "story": "utils/grc/templates/default/TemplateName.stories.tsx",
+        "index": "utils/grc/templates/default/index.ts",
+        "hook": "utils/grc/templates/default/useTemplateName.ts"
       },
       "path": "src/components",
       "withStyle": true,
@@ -23,13 +23,13 @@
     },
     "layout": {
       "customTemplates": {
-        "component": "common/templates/layout/TemplateName.tsx",
-        "style": "common/templates/layout/TemplateName.module.scss",
-        "test": "common/templates/layout/TemplateName.test.tsx",
-        "story": "common/templates/layout/TemplateName.stories.tsx",
-        "header": "common/templates/layout/Header.tsx",
-        "footer": "common/templates/layout/Footer.tsx",
-        "index": "common/templates/layout/index.ts"
+        "component": "utils/grc/templates/layout/TemplateName.tsx",
+        "style": "utils/grc/templates/layout/TemplateName.module.scss",
+        "test": "utils/grc/templates/layout/TemplateName.test.tsx",
+        "story": "utils/grc/templates/layout/TemplateName.stories.tsx",
+        "header": "utils/grc/templates/layout/Header.tsx",
+        "footer": "utils/grc/templates/layout/Footer.tsx",
+        "index": "utils/grc/templates/layout/index.ts"
       },
       "path": "src/layouts",
       "withStyle": true,
@@ -42,7 +42,7 @@
     },
     "page": {
       "customTemplates": {
-        "component": "common/templates/page/TemplateName.tsx"
+        "component": "utils/grc/templates/page/TemplateName.tsx"
       },
       "path": "pages",
       "withStyle": false,
